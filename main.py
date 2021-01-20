@@ -7,7 +7,7 @@ from PyQt5 import uic
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("draw.ui", self)
+        uic.loadUi('draw.ui', self)
         self.initUI()
 
     def initUI(self):
